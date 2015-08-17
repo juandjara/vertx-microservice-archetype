@@ -2,7 +2,7 @@
 
 What's inside:
 
-- [Vert.x](http://http://vertx.io/)
+- [Vert.x](http://vertx.io/)
 - [Guice](https://github.com/google/guice)
 - [Lombok](https://projectlombok.org/)
 
