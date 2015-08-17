@@ -6,4 +6,35 @@
   <artifactId>vertx3-microservice-archetype</artifactId>
   <version>0.0.1</version>
   <packaging>jar</packaging>
+  
+  <name>vertx3-microservice-archetype</name>
+  <description>Template for Vert.x 3 + Guice + Lombok project.</description>
+  
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  
+  <developers>
+    <developer>
+      <name>Krzysztof Urman</name>
+      <email>krzysztof.urman@espeo.pl</email>
+      <organization>Espeo Software</organization>
+      <organizationUrl>http://espeo.pl</organizationUrl>
+    </developer>
+  </developers>
+  
+  <scm>
+    <connection>scm:git:git@github.com:espeo/vertx-microservice-archetype.git</connection>
+    <developerConnection>scm:git:git@github.com:espeo/vertx-microservice-archetype.git</developerConnection>
+    <url>scm:git:git@github.com:espeo/vertx-microservice-archetype.git</url>
+  </scm>
+  
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
 </project>
