@@ -2,9 +2,9 @@
 
 What's inside:
 
-- Ver.tx
-- Guice 
-- Lombok
+- [Vert.x](http://http://vertx.io/)
+- [Guice](https://github.com/google/guice)
+- [Lombok](https://projectlombok.org/)
 
 How to use:
 1. Clone repo
