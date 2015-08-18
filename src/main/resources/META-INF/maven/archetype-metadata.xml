@@ -18,11 +18,21 @@ limitations under the License.
 #L%
 -->
 
-<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
-  <id>vertx3-microservice-archetype</id>
-  <sources>
-    <source>src/main/java/vertx/MicroserviceVerticle.java</source>
-    <source>src/main/java/guice/GuiceModule.java</source>
-  </sources>
-</archetype>
+<archetype-descriptor
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
+  name="jboss-as-subsystem-src"
+  xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <name>vertx3-microservice-archetype</name>
+  
+  <fileSets>
+    <fileSet filtered="true" packaged="true" encoding="UTF-8" >
+      <directory>src/main/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+  
+</archetype-descriptor>

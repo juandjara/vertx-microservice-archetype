@@ -8,10 +8,13 @@ What's inside:
 
 How to use:
 1. Clone repo
+
 2. Inside repository execute
+
 ```
 mvn install
 ```
+
 3. Then you can user archetype
 
 ```

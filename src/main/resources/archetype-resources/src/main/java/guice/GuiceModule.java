@@ -1,4 +1,4 @@
-package ${packageName}.guice;
+package ${package}.guice;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.name.Names;

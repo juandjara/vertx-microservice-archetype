@@ -1,7 +1,7 @@
-package ${packageName}.vertx;
+package ${package}.vertx;
 
 import com.google.inject.Guice;
-import ${packageName}.guice.GuiceModule;
+import ${package}.guice.GuiceModule;
 import io.vertx.core.AbstractVerticle;
 import lombok.extern.java.Log;
 
