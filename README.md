@@ -7,22 +7,21 @@ What's inside:
 - [Lombok](https://projectlombok.org/)
 
 How to use:
-1. Clone repo
 
+1. Clone repo
 2. Inside repository execute
 
-```
-mvn install
-```
-
+    ```
+    mvn install
+    ```
 3. Then you can user archetype
 
-```
-mvn archetype:generate \
--DarchetypeGroupId=pl.espeo \
--DarchetypeArtifactId=vertx3-microservice-archetype \
--DarchetypeVersion=0.0.1
-```
+    ```
+    mvn archetype:generate \
+    -DarchetypeGroupId=pl.espeo \
+    -DarchetypeArtifactId=vertx3-microservice-archetype \
+    -DarchetypeVersion=0.0.1
+    ```
 
 ### Todos
 
