@@ -1,10 +1,19 @@
 # Maven archetype for Vert.x project
 
-What's inside:
+### What's inside:
+
+Libs:
 
 - [Vert.x](http://vertx.io/)
 - [Guice](https://github.com/google/guice)
 - [Lombok](https://projectlombok.org/)
+
+Code:
+
+- Main Verticle
+- Sample EventBus usage with test case
+- Guice Module
+
 
 How to use:
 
@@ -14,7 +23,7 @@ How to use:
     ```
     mvn install
     ```
-3. Then you can user archetype
+3. Then you can use archetype
 
     ```
     mvn archetype:generate \
@@ -25,9 +34,8 @@ How to use:
 
 ### Todos
 
- - Write Test Skeleton
- - Use Event Bus in MicroserviceVerticle
- - Push to Maven Central repository
+  - sample REST endpoint
+  - Push to Maven Central repository
  
 License
 ----
