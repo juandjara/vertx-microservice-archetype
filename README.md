@@ -27,7 +27,7 @@ How to use:
 
     ```
     mvn archetype:generate \
-    -DarchetypeGroupId=pl.espeo \
+    -DarchetypeGroupId=eu.espeo \
     -DarchetypeArtifactId=vertx3-microservice-archetype \
     -DarchetypeVersion=0.0.1
     ```
